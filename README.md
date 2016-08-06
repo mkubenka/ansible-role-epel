@@ -1,4 +1,4 @@
-# Ansible Role EPEL
+# Ansible Role EPEL [![Build Status](https://travis-ci.org/mkubenka/ansible-role-epel.svg?branch=master)](https://travis-ci.org/mkubenka/ansible-role-epel)
 
 Extra Packages for Enterprise Linux (EPEL) repository.
 
