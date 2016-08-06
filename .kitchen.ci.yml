@@ -6,9 +6,11 @@ driver:
   name: docker
   use_sudo: false
   privileged: true
+  require_chef_omnibus: false
+
+transport:
   # Looks like this is still a issue: https://github.com/test-kitchen/test-kitchen/issues/1035
   max_ssh_sessions: 1
-  require_chef_omnibus: false
 
 provisioner:
   name: ansible_playbook
