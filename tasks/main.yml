@@ -1,6 +1,6 @@
 ---
 
 - name: install package
-  yum: pkg={{ item }} state=present
-  with_items:
-    - epel-release
+  yum:
+    name: epel-release
+    state: present
